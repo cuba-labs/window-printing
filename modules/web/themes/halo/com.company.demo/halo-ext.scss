@@ -1,0 +1,11 @@
+/* Define your theme modifications inside next mixin */
+@mixin com_company_demo-halo-ext {
+
+}
+
+@media print {
+  .c-app-menubar,
+  .v-tabsheet-tabcontainer-c-main-tabsheet {
+    display: none;
+  }
+}
